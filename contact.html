@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic - Megan Hovis</title>
+		<title>Contact</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main2.css" />
@@ -23,9 +23,9 @@
 							<li>
 								<a href="#" class="icon solid fa-angle-down">Menu</a>
 								<ul>
-									<li><a href="generic2.html">Art</a></li>
-									<li><a href="contact2.html">Contact</a></li>
-									<li><a href="elements2.html">About Me</a></li>
+									<li><a href="art.html">Art</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li><a href="about.html">About Me</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -33,22 +33,35 @@
 				</header>
 
 			<!-- Main -->
-				<section id="main" class="container">
+				<section id="main" class="container medium">
 					<header>
-						<h2>Art</h2>
-						<p>A happy thing to do.</p>
+						<h2>Let's get connected.</h2>
+						<p>Send me a message and we'll get this party started.</p>
 					</header>
-					<section class="box">
-						<div class="box alt">
+					<div class="box">
+						<form method="post" action="#">
 							<div class="row gtr-50 gtr-uniform">
-								<div class="col-4"><span class="image fit"><img src="images/Dog.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/Cat.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/Beach.JPG" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/Abstract.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/Abstract2.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/Prints2.jpg" alt="" /></span></div>
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="name" id="name" value="" placeholder="Name" />
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="email" name="email" id="email" value="" placeholder="Email" />
+								</div>
+								<div class="col-12">
+									<input type="text" name="subject" id="subject" value="" placeholder="Subject" />
+								</div>
+								<div class="col-12">
+									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+								</div>
+								<div class="col-12">
+									<ul class="actions special">
+										<li><input type="submit" value="Send Message" /></li>
+									</ul>
+								</div>
 							</div>
-						</div>
+						</form>
+					</div>
+				</section>
 
 			<!-- Footer -->
 			<footer id="footer">
@@ -62,6 +75,7 @@
 					<li>Design: <a href="http://html5up.net">Megan Hovis</a></li>
 				</ul>
 			</footer>
+
 		</div>
 
 		<!-- Scripts -->
