@@ -1,6 +1,6 @@
-# ProductLab Portfolio Demo
+# Megan's ProductLab Portfolio Demo
 
-Welcome to the ProductLab Portfolio Demo repository!
+Welcome to the my ProductLab Portfolio Demo repository!
 
 This repository provides a structured template and resources to help ProductLab participants create their own professional online portfolios.
 
